@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CacaoCanvas | A Gallery of Flavor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">CacaoCanvas</a>
+            <div class="nav-links">
+                <a href="#how-it-works">The Process</a>
+                <a href="#waitlist" class="btn-outline">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="editorial-title">Every Bar has a <span>Story to Tell</span>.</h1>
+                <p class="lead">A monthly gallery of single-origin craft chocolate paired with hand-painted farm profiles. Experience the soul of the harvest.</p>
+                <div class="hero-cta">
+                    <a href="#waitlist" class="btn-primary">Reserve Your Box</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/an-editorial-magazine-style-hero-image-f.png" alt="Premium chocolate and watercolor farm illustration" class="hero-img">
+            </div>
+        </div>
+    </header>
+
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="editorial-quote">
+                "We bridge the gap between fine art and fine food, turning every tasting into a curated sensory journey."
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">The Monthly Canvas</h2>
+            <div class="grid">
+                <div class="step">
+                    <span class="step-number">01</span>
+                    <h3>The Origin</h3>
+                    <p>We source limited-run, single-origin bars from the world's most remote cacao estates, ensuring transparent and ethical trade.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">02</span>
+                    <h3>The Art</h3>
+                    <p>Our artists create custom watercolor illustrations and profiles of the farmers and landscapes behind that month's harvest.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">03</span>
+                    <h3>The Experience</h3>
+                    <p>Your curated box arrives with chocolate, art prints, and guided tasting notes to develop your palate over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="waitlist" class="waitlist-section">
+        <div class="container">
+            <div class="waitlist-box">
+                <h2 class="section-title">Join the Collector's List</h2>
+                <p>Sign up to receive an exclusive early-bird invitation for our first volume launch in 2026. Limited boxes available.</p>
+                
+                <form id="waitlist-form" class="signup-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <button type="submit" id="submit-btn" class="btn-primary full-width">Secure Access</button>
+                </form>
+                <div id="form-message" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo">CacaoCanvas</span>
+                    <p>Curating the world's finest cacao through the lens of art.</p>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2026 CacaoCanvas. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
