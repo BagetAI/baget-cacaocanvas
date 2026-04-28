@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             messageDiv.className = 'form-message';
 
             try {
-                const response = await fetch('https://baget.ai/api/public/databases/62c9f3fc-0c6a-4851-9ff4-71272443b908/rows', {
+                const response = await fetch('https://app.baget.ai/api/public/databases/62c9f3fc-0c6a-4851-9ff4-71272443b908/rows', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
